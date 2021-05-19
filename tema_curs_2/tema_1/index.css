@@ -1,0 +1,22 @@
+#container {
+    height: 15px;
+    background-color: chartreuse;
+    position: relative;
+    border-radius: 15px;
+}
+
+#bar {
+    position: absolute;
+    height: 100%;
+    background-color: violet;   
+    border-radius: 15px;
+}
+
+.load-anim {
+    animation: bar-anim 10s forwards ;
+}
+
+@keyframes bar-anim {
+    0% {width: 0%;}
+    100% {width: 100%;}
+}

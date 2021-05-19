@@ -5,5 +5,4 @@ for (let i = 0; i <= arr.length; i++) {
     let calc = x => x * 15 + x
     console.log(calc(num));
     // console.log(`${arr[i]}` * 15 + arr[i]);
-}
-
+};
