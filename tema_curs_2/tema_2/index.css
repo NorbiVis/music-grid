@@ -1,0 +1,15 @@
+#container {
+    width: 400px;
+    height:200px ;
+}
+
+#watch {
+    width: 150px;
+    font-size: 100px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+#btn {
+    text-align: center;
+}
